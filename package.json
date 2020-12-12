@@ -4,6 +4,7 @@
   "description": "this is a simple login sign up app",
   "main": "app.js",
   "dependencies": {
+    "node": "15.2.1",
     "bcrypt": "^5.0.0",
     "connect-flash": "^0.1.1",
     "express": "^4.17.1",
@@ -18,7 +19,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "login",
